@@ -17,16 +17,25 @@ const LoginPage = () => {
   return (
     <GoogleOAuthProvider clientId="YOUR_ACTUAL_GOOGLE_CLIENT_ID">
      <div className="flex h-screen relative overflow-hidden bg-purple-300">
+     <div className="flex bg-purple-300 opacity-85">
+          <img
+            src="https://www.rajalakshmi.org/image/banner-1.jpg"
+            className="absolute object-cover h-full opacity-75"
+            alt="college building"
+          />
+        </div>
         <div className="circle circle1"></div>
         <div className="circle circle2"></div>
+        <div className="circle circle3"></div>
       <div className="circle circle4"></div>
         <div className="circle circle5"></div>
+        <div className="circle circle6"></div>
         
         <div className="flex items-start justify-start">
-          <img src="/logo2.png" alt="Logo" className="w-90 h-auto justify-start" />
+          <img src='./logo2.png' alt="College Logo" className="h-20 transform transition-transform duration-500 ease-in-out hover:scale-110 bright"  />
         </div>
         {/* Login Form */}
-        <div className="form-container w-1/2 bg-purple-400 flex align-middle items-end flex-col justify-center  p-8 z-10 form-border bottom-0" >
+        <div className="form-container  bg-purple-400 flex align-middle items-end flex-col justify-center  p-8 z-10 form-border bottom-0" >
         <h1 className="text-3xl font-bold mb-6 text-purple-600 text-center">LOGIN</h1>
           <form className="w-full ">
             <div className="mb-4">
@@ -70,13 +79,7 @@ const LoginPage = () => {
           </form>
         </div>
         {/* Background Image */}
-        <div className="flex justify-end">
-          <img
-            src="https://www.rajalakshmi.org/image/banner-1.jpg"
-            className="w-4/4 object-cover h-full opacity-75"
-            alt="Description"
-          />
-        </div>
+     
         <div className="bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-purple-300 via-gray-100 to-blue-300"></div>
       </div>
     </GoogleOAuthProvider>

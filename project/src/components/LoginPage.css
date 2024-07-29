@@ -63,13 +63,13 @@
     animation-delay: 1s;
   }
   
-  /* .circle3 {
+  .circle3 {
     width: 200px;
     height: 200px;
     top: 50%;
     left: 40%;
     animation-delay: 2s;
-  } */
+  }
   
   .circle4 {
     width: 120px;
@@ -86,6 +86,13 @@
     left: 20%;
     animation-delay: 4s;
   }
+  .circle6 {
+    width: 180px;
+    height: 180px;
+    top: 90%;
+    left: 70%;
+    animation-delay: 4s;
+  }
   
   .form-border {
     border: 3px solid purple;
@@ -97,14 +104,15 @@
   }
   
   .form-container {
+    width: 60vh;
     height: 70vh; /* Adjust the height as needed */
     display: flex;
     justify-content:center;
     align-items:last baseline;
     text-align:justify;
-    /* top: 20%;
-    left: 0%; */
-    transform: translate(-40%, 30%) 
+    top: 20%;
+    left: 20%;
+    /* transform: translate(-40%, 50%)  */
 
   }
   
@@ -125,4 +133,6 @@
       transform: translate(-50px, -50px);
     }
   }
-  
+  .bright {
+    filter: brightness(4);
+  }
