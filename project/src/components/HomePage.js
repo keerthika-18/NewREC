@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function HomePage() {
   return (
     <div className="bg-blue-100 p-6 rounded-lg shadow-md">
-      <div className="container mx-auto">
+      <div>
         <nav className="mt-4">
           <ul className="flex space-x-4">
             <li>

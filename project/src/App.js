@@ -8,7 +8,7 @@ import HomePage from "./components/HomePage";
 function App() {
   return (
     <Router>
-      <div className="container mx-auto">
+      <div>
        
         <Routes>
           <Route path="/" element={<HomePage />} />
