@@ -15,7 +15,7 @@ const LoginPage = () => {
   };
 
   return (
-    <GoogleOAuthProvider clientId="YOUR_ACTUAL_GOOGLE_CLIENT_ID">
+    <GoogleOAuthProvider clientId="520939030046-vtrtisp7hbufakv84f1ij8i2q1nhem3p.apps.googleusercontent.com">
      <div className="flex h-screen relative overflow-hidden bg-purple-300">
      <div className="flex bg-purple-300 opacity-85">
           <img
